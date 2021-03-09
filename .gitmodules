@@ -1,0 +1,7 @@
+[submodule "contrib/Catch2"]
+	path = contrib/Catch2
+	url = https://github.com/catchorg/Catch2.git
+	branch = v2.x
+[submodule "contrib/FakeIt"]
+	path = contrib/FakeIt
+	url = https://github.com/eranpeer/FakeIt.git
