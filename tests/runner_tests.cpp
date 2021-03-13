@@ -5,6 +5,6 @@
 
 // This file provides with unit tests runner
 
-SECTION("Demo testcase") {
+TESTCASE("Demo testcase") {
   CHECK(true);
 }
