@@ -31,7 +31,9 @@ cmake --build . --config Release
 ```
 
 > What about running tests?
+
 Build the project and run the following:
+
 ```shell
 ctest -VV -C Release
 ```
