@@ -6,6 +6,7 @@ include(${PROJECT_SOURCE_DIR}/contrib/Catch2/contrib/Catch.cmake)
 
 set(TARGET_NAME run_tests)
 
+# add test sources here ... 
 add_executable(${TARGET_NAME} runner_tests.cpp)
 target_link_libraries(${TARGET_NAME} PRIVATE Catch2::Catch2)
 
