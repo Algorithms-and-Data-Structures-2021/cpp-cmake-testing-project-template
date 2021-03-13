@@ -5,6 +5,6 @@
 
 // This file provides with unit tests runner
 
-TESTCASE("Demo testcase") {
+TEST_CASE("Demo testcase") {
   CHECK(true);
 }
