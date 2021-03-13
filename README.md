@@ -16,8 +16,16 @@ Well, click on `Actions` button and you will see "Check memory leaks workflow" s
 
 This workflow runs on demand, i.e. manual launch is required. 
 
->  How to clone this repository?
+>  How to clone and build this project?
 
 ```shell
 git clone --recurse-submodules -j2 <repository url>
+```
+
+and from the project's folder:
+```shell
+mkdir -p build && cd build
+
+cmake -DCMAKE_BUILD_TYPE=Release ..
+cmake --build . --config Release
 ```
