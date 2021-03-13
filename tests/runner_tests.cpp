@@ -5,3 +5,6 @@
 
 // This file provides with unit tests runner
 
+SECTION("Demo testcase") {
+  CHECK(true);
+}
