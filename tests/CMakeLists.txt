@@ -15,4 +15,4 @@ target_include_directories(${TARGET_NAME} PRIVATE
         ${PROJECT_SOURCE_DIR}/contrib/FakeIt/single_header/catch)
 
 # discover tests for CTest
-catch_discover_tests(${TARGET_NAME} EXTRA_ARGS -r compact)
+catch_discover_tests(${TARGET_NAME} EXTRA_ARGS -r console --abort)
