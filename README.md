@@ -35,5 +35,5 @@ cmake --build . --config Release
 Build the project and run the following:
 
 ```shell
-ctest -VV -C Release
+ctest -VVV
 ```
